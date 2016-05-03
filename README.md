@@ -47,13 +47,13 @@ Sample code to upload an audio file to a server
                 dos.write(buffer, 0, length);
             }
 
-//                for (String name : parameters.keySet()) {
-//                    dos.writeBytes(lineEnd);
-//                    dos.writeBytes(twoHyphens + boundary + lineEnd);
-//                    dos.writeBytes("Content-Disposition: form-data; name=\"" + name + "\"" + lineEnd);
-//                    dos.writeBytes(lineEnd);
-//                    dos.writeBytes(parameters.get(name));
-//                }
+                //for (String name : parameters.keySet()) {
+                //    dos.writeBytes(lineEnd);
+                //    dos.writeBytes(twoHyphens + boundary + lineEnd);
+                //    dos.writeBytes("Content-Disposition: form-data; name=\"" + name + "\"" + lineEnd);
+                //    dos.writeBytes(lineEnd);
+                //    dos.writeBytes(parameters.get(name));
+                //}
 
             // send multipart form data necessary after file data...
             dos.writeBytes(lineEnd);
